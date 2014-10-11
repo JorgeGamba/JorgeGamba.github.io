@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
-url:              http://localhost:4000
+title:            Blog de Jorge Gamba
+locale:           es_CO
+url:              http://jorgegamba.com
 
 
 # Jekyll configuration
@@ -26,23 +26,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Jorge Gamba
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  bio: "Desarrollador de Software."
+  email: jorgegamba@gmail.com
+  disqus-shortname: jorgegamba
+  twitter: jorgegamba
+  facebook: jorgegambap
   google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+    plus: JorgeGamba
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: JorgeGamba
+  stackoverflow: #http://stackoverflow.com/users/525168/jorge-gamba
+  linkedin: jorgegamba
   instagram: #username
   lastfm: #username
   tumblr: #username

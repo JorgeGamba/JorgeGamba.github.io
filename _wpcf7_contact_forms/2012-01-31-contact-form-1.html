@@ -1,0 +1,99 @@
+---
+layout: wpcf7_contact_form
+title: Contact form 1
+date: 2012-01-31 19:11:49.000000000 -05:00
+categories: []
+tags: []
+status: publish
+type: wpcf7_contact_form
+published: true
+meta:
+  _mail_2: |-
+    a:8:{s:6:"active";s:0:"";s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:26:"[your-name] <[your-email]>";s:4:"body";s:121:"Message body:
+    [your-message]
+
+    --
+    This mail is sent via contact form on Blog de Jorge Gamba http://www.jorgegamba.com/blog";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";s:0:"";}
+  _messages: a:22:{s:12:"mail_sent_ok";s:43:"Your message was sent successfully. Thanks.";s:12:"mail_sent_ng";s:93:"Failed
+    to send your message. Please try later or contact the administrator by another
+    method.";s:16:"validation_error";s:74:"Validation errors occurred. Please confirm
+    the fields and submit it again.";s:12:"accept_terms";s:35:"Please accept the terms
+    to proceed.";s:13:"invalid_email";s:28:"Email address seems invalid.";s:16:"invalid_required";s:31:"Please
+    fill the required field.";s:17:"captcha_not_match";s:31:"Your entered code is
+    incorrect.";s:13:"upload_failed";s:22:"Failed to upload file.";s:24:"upload_file_type_invalid";s:30:"This
+    file type is not allowed.";s:21:"upload_file_too_large";s:23:"This file is too
+    large.";s:23:"upload_failed_php_error";s:38:"Failed to upload file. Error occurred.";s:23:"quiz_answer_not_correct";s:27:"Your
+    answer is not correct.";s:17:"akismet_says_spam";s:93:"Failed to send your message.
+    Please try later or contact the administrator by another method.";s:4:"spam";s:93:"Failed
+    to send your message. Please try later or contact the administrator by another
+    method.";s:11:"invalid_url";s:18:"URL seems invalid.";s:11:"invalid_tel";s:31:"Telephone
+    number seems invalid.";s:14:"invalid_number";s:28:"Number format seems invalid.";s:16:"number_too_small";s:25:"This
+    number is too small.";s:16:"number_too_large";s:25:"This number is too large.";s:12:"invalid_date";s:26:"Date
+    format seems invalid.";s:14:"date_too_early";s:23:"This date is too early.";s:13:"date_too_late";s:22:"This
+    date is too late.";}
+  _additional_settings: ''
+  _mail: |-
+    a:7:{s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:26:"[your-name] <[your-email]>";s:4:"body";s:179:"From: [your-name] <[your-email]>
+    Subject: [your-subject]
+
+    Message Body:
+    [your-message]
+
+    --
+    This mail is sent via contact form on Blog de Jorge Gamba http://www.jorgegamba.com/blog";s:9:"recipient";s:23:"contacto@jorgegamba.com";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";s:0:"";}
+  _form: |-
+    <p>Su Nombre (requerido)<br />
+        [text* your-name] </p>
+
+    <p>Su Email (requerido)<br />
+        [email* your-email] </p>
+
+    <p>Asunto<br />
+        [text your-subject] </p>
+
+    <p>Su Mensaje<br />
+        [textarea your-message] </p>
+
+    [captchac captcha-1] [captchar captcha-1]
+
+    <p>[submit "Enviar"]</p>
+---
+<p>Su Nombre (requerido)<br />
+    [text* your-name] </p>
+<p>Su Email (requerido)<br />
+    [email* your-email] </p>
+<p>Asunto<br />
+    [text your-subject] </p>
+<p>Su Mensaje<br />
+    [textarea your-message] </p>
+<p>[captchac captcha-1] [captchar captcha-1]</p>
+<p>[submit "Enviar"]</p>
+<p>[your-subject]<br />
+[your-name] <[your-email]><br />
+From: [your-name] <[your-email]><br />
+Subject: [your-subject]</p>
+<p>Message Body:<br />
+[your-message]</p>
+<p>--<br />
+This mail is sent via contact form on Blog de Jorge Gamba http://www.jorgegamba.com/blog<br />
+contacto@jorgegamba.com</p>
+<p>[your-subject]<br />
+[your-name] <[your-email]><br />
+Message body:<br />
+[your-message]</p>
+<p>--<br />
+This mail is sent via contact form on Blog de Jorge Gamba http://www.jorgegamba.com/blog<br />
+[your-email]</p>
+<p>Your message was sent successfully. Thanks.<br />
+Failed to send your message. Please try later or contact the administrator by another method.<br />
+Validation errors occurred. Please confirm the fields and submit it again.<br />
+Please accept the terms to proceed.<br />
+Email address seems invalid.<br />
+Please fill the required field.<br />
+Your entered code is incorrect.<br />
+Failed to upload file.<br />
+This file type is not allowed.<br />
+This file is too large.<br />
+Failed to upload file. Error occurred.<br />
+Your answer is not correct.<br />
+Failed to send your message. Please try later or contact the administrator by another method.</p>

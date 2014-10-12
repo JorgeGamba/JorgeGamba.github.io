@@ -15,6 +15,7 @@ GEM
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     hitimes (1.2.2)
+    hpricot (0.8.6)
     jekyll (2.4.0)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -86,6 +87,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  hpricot
   jekyll
   jekyll-sitemap
   octopress (~> 3.0.0.rc.12)

@@ -4,6 +4,11 @@ title:            Blog de Jorge Gamba
 locale:           es_CO
 url:              http://jorgegamba.com
 
+# Jekyll RSS Feed
+
+name:         Blog de Jorge Gamba
+description:  Consultor en Arquitectura y Desarrollo de Software. Colaborador de la comunidad http://ALT.NET  Hispano. Agile, Extreme Programming, BDD.
+url:          http://jorgegamba.com
 
 # Jekyll configuration
 

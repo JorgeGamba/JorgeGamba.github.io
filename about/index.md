@@ -4,10 +4,6 @@ title: Sobre mí
 tags: []
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
-image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 <p>Jorge Gamba es consultor Senior independiente, en Arquitectura y Desarrollo de Software de aplicaciones empresariales, con 10 años de experiencia profesional prestando sus servicios para empresas públicas y privadas de Latinoamérica. Estudió Ingeniería de sistemas en la Universidad Nacional Abierta y a Distancia, en donde recibió una mención de honor por obtener el mayor puntaje a nivel nacional en su universidad en las pruebas de estado conocidas como el Examen de Calidad de la Educación Superior (ECAES). Además, ha sido reconocido como Profesional Más Valioso (MVP) de Microsoft en el mundo, por el aporte que ha realizado a las comunidades técnicas en el área de Visual C#.</p>
